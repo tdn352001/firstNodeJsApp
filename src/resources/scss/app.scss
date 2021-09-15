@@ -1,0 +1,27 @@
+@import 'variables';
+
+h1{
+    color: $red-color;
+}
+
+.search-form{
+    width: 500px;
+    margin-top:30px;
+    position:relative;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.course-container{
+    margin: 16;
+    display: block;
+}
+
+.card-course-item{
+    margin: 8px;
+}
+
+.detail-course{
+    text-decoration: none;
+}
